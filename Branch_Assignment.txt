@@ -1,0 +1,26 @@
+1. Create new project and add one file into it.
+2. Initialize git:
+	>git init
+3. >git add First.txt
+4. >git status
+5. >git commit -m "it is first file and first commit"
+6. >git mv First.txt First_File.txt
+7. >git status
+8. >git commit -m "file renames"
+9. >git commit -m "file modifies"
+10.>git add First_File.txt
+11.>git status
+12.>git log
+13.>git branch newbranch
+14.>git checkout newbranch
+15.>git status
+16.>git commit -am "Add some new features"
+17.>git add First_File.txt
+18.>git status
+19.>git commit -m "it is new branch commit"
+20.>git diff master newbranch
+21.>git status
+22.>git log
+23.>git checkout master
+24.>git merge master newbranch
+25.>git log
